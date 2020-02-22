@@ -1,42 +1,61 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby ❤️ Notion`,
-    description: `build site with gatsby & notion`,
-    author: `@mayneyao`,
+    title: `Novela by Narative`,
+    name: `Narative`,
+    siteUrl: `https://novela.narative.co`,
+    description: `This is my description that will be used in the meta tags and important for search results`,
+    hero: {
+      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      maxWidth: 652,
+    },
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/narative`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/narative`,
+      },
+      {
+        name: `instagram`,
+        url: `https://instagram.com/narative.co`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/company/narative/`,
+      },
+      {
+        name: `dribbble`,
+        url: `https://dribbble.com/narativestudio`,
+      },
+    ],
   },
   plugins: [
     {
-      resolve: `gatsby-source-notion-database`,
+      resolve: "@narative/gatsby-theme-novela",
       options: {
-        sourceConfig: [
-          {
-            name: 'posts',
-            table: 'https://www.notion.so/4b50defc60ce4e89a6539f511d9d946f?v=8e71dde4479040b5a3e6ca0d91d3d8e6',
-            cacheType: 'html'
-          },
-          {
-            name: 'books',
-            table: 'https://www.notion.so/4ae9328e650945eb9adbd882b3b453d3?v=0966bdbd0645437cbcc62e6a933e241c',
-            cacheType: 'static'
-          }
-        ]
-      }
+        contentPosts: "content/posts",
+        contentAuthors: "content/authors",
+        basePath: "/",
+        authorsPage: true,
+        sources: {
+          local: true,
+          // contentful: true,
+        },
+      },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-notion`,
-        short_name: `starter`,
+        name: `Novela by Narative`,
+        short_name: `Novela`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        // icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
-}
+};
