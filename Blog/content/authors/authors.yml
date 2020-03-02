@@ -1,7 +1,6 @@
-- name: Dennis Brotzky
+- name: Lance Shu
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
+    妄求在这里探讨宇宙万物的混沌关系，地球最后一片自留地
   avatar: ./avatars/dennis-brotzky.jpg
   social:
     - url: https://unsplash.com
@@ -11,14 +10,3 @@
     - url: https://github.com
   featured: true
 
-- name: Thiago Costa
-  bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/thiago-costa.png
-  social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
-    - url: https://github.com
-    - url: https://github.com
