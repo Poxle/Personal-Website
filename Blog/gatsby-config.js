@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: `Valhalla`,
-    name: `Written with love by Lance`,
+    name: `Lance Shu`,
     siteUrl: `https://valhalla.ink`,
     description: `留下些痕迹`,
     hero: {
-      heading: `Welcome to my home, feel free to stop by`,
+      heading: `Welcome to my home, feel free to stop by.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/PoxleShu`,
+        url: `https://twitter.com/narative`,
       },
       {
         name: `instagram`,
-        url: `https://www.instagram.com/r3aliti/`,
+        url: `https://instagram.com/narative.co`,
       },
     ],
   },
@@ -26,7 +26,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: false,
+        authorsPage: true,
         sources: {
           local: true,
           // contentful: true,
