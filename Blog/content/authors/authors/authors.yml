@@ -1,0 +1,8 @@
+- name: Lance Shu
+  bio: |
+    妄求在此探讨宇宙与内心的混沌关系
+  avatar: ./avatars/lance-shu.jpg
+  social:
+    - url: https://twitter.com/PoxleShu
+    - url: https://www.instagram.com/r3aliti/
+  featured: true
