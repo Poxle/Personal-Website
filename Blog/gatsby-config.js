@@ -14,20 +14,8 @@ module.exports = {
         url: `https://twitter.com/narative`,
       },
       {
-        name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
         name: `instagram`,
         url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
       },
     ],
   },
@@ -48,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Valhalla by Shu`,
+        short_name: `VAL`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
