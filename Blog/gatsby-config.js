@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Valhalla`,
-    name: `Lance with curiosity`,
+    name: `Written with curiosity by Lance`,
     siteUrl: `https://valhalla.ink`,
     description: `留下些痕迹`,
     hero: {

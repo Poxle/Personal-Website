@@ -4,6 +4,7 @@ author: Lance Shu
 date: 2020-01-20
 hero: ./images/hero.jpg
 excerpt: 灵感源自Matters的年度回顾
+slug: 2019-in-Review
 ---
 ** 1. ~~2019年只剩下不到十天~~，分享一件在年初想不到今年會發生的一件事？這件事對你個人生活帶來什麼樣的改變？**
 

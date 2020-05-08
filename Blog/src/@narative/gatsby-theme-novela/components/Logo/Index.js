@@ -1,9 +1,9 @@
-import { useColorMode } from 'theme-ui';
+
 
 import React from 'react';
 /**
 const [colorMode] = useColorMode();
-
+import { useColorMode } from 'theme-ui';
 const fill = colorMode === "dark" ? "#fff" : "#000";
 
  * Paste in your SVG logo and return it from this component.
